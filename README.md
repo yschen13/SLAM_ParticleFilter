@@ -1,3 +1,13 @@
+### [Formal report](./SLAM_KL.pdf)
+
+### Demo
+* SLAM
+* 
+* Textur mapping
+
+
+
+
 ### Main scripts
 * Proj2.py: For prediction and update
 	* Change accordingly in the script: 
