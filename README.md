@@ -1,11 +1,20 @@
+This is course project of [ECE276A(UCSD)](https://natanaso.github.io/ece276a/). Thanks for the instructor and TAs for providing the test dataset and help.
 ### [Formal report](./SLAM_KL.pdf)
+* Problem formulation
+* Algorithm description
+* Test results on three datasets
 
-### Demo
-* SLAM
-* 
-* Textur mapping
+### Sensors on the robot.
+* [Robot configuration](./RobotConfiguration.pdf)
+* Encoder(40Hz): distance travelled by the wheelp
+* IMU(100Hz): linear/angular velocity
+* Hokuyo LIDAR(40Hz): (double) distance from enviroment obstacles
+* Camera(20Hz): video of surrounding environment, only for texture mapping in this project
 
-
+### Goal of SLAM
+* Determine the self-location of th robot
+* Represent the environment (e.g. walls/obstacles) 
+* Mapping and localization will be performed at the same time because they are mutually dependen
 
 
 ### Main scripts
