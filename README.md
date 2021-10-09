@@ -9,7 +9,7 @@ This is course project of [ECE276A(UCSD)](https://natanaso.github.io/ece276a/). 
 * Encoder(40Hz): distance travelled by the wheelp
 * IMU(100Hz): linear/angular velocity
 * Hokuyo LIDAR(40Hz): (double) distance from enviroment obstacles
-* Camera(20Hz): video of surrounding environment, only for texture mapping in this project
+* Camera(20Hz): video of the surrounding environment, only for texture mapping in this project. Data not uploaded due to file size limit.
 
 ### Goal of SLAM
 * Determine the self-location of th robot
