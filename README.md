@@ -4,9 +4,9 @@ This is course project of [ECE276A(UCSD)](https://natanaso.github.io/ece276a/). 
 * Algorithm description
 * Test results on three datasets
 
-### Sensors on the robot.
+### Sensors on the robot
 * [Robot configuration](./RobotConfiguration.pdf)
-* Encoder(40Hz): distance travelled by the wheelp
+* Encoder(40Hz): distance travelled by the wheel
 * IMU(100Hz): linear/angular velocity
 * Hokuyo LIDAR(40Hz): (double) distance from enviroment obstacles
 * Camera(20Hz): video of the surrounding environment, only for texture mapping in this project. Data not uploaded due to file size limit.
@@ -14,7 +14,7 @@ This is course project of [ECE276A(UCSD)](https://natanaso.github.io/ece276a/). 
 ### Goal of SLAM
 * Determine the self-location of th robot
 * Represent the environment (e.g. walls/obstacles) 
-* Mapping and localization will be performed at the same time because they are mutually dependen
+* Mapping and localization will be performed at the same time because they are mutually dependent
 
 
 ### Main scripts
